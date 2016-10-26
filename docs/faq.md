@@ -13,3 +13,12 @@ Electron Release Server uses explicit file compatibility naming in order to avoi
 ### How should I name my releases?
 
 Electron Release Server requires applications to follow [SemVer](http://semver.org). And even if you're not using Electron Release Server, you should follow it!
+
+### I have it working locally, but how to get it onto a server now?
+
+If you don't have a Node.js server already running and secure, consider this tutorial to get you started:
+https://www.youtube.com/watch?v=kR06NoSzAXY
+
+If you are failing at npm install, make sure you have enough RAM on your server.
+
+Sails tool works with many other hosts like Heroku, so you aren't just limited to DigitalOcean. 
